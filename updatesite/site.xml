@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <description name="DICER-Launcher Update site" url="https://github.com/GiorgioBart/D4D-update-site/raw/master">
-      This is the  update site for the DICER-Launcher plugin
-   </description>
-   <feature url="features/it.polimi.dice.dicer.d4d.feature_1.0.0.201611111436.jar" id="it.polimi.dice.dicer.d4d.feature" version="1.0.0.201611111436"/>
-   <category-def name="Dicer-launcher" label="Dicer-Launcher">
-      <description>
-         This is an Update site for Dice Launcher
-      </description>
-   </category-def>
+   <feature url="features/it.polimi.dice.dicer.d4d.launcher.feature_1.0.0.201611131812.jar" id="it.polimi.dice.dicer.d4d.launcher.feature" version="1.0.0.201611131812">
+      <category name="DICER_Launcher"/>
+   </feature>
+   <feature url="features/it.polimi.dice.dicer.dependencies_1.0.0.201611131038.jar" id="it.polimi.dice.dicer.dependencies" version="1.0.0.201611131038">
+      <category name="DICER_Dependencies"/>
+   </feature>
+   <category-def name="DICER_Launcher" label="DICER Launcher"/>
+   <category-def name="DICER_Dependencies" label="DICER Dependencies"/>
 </site>
